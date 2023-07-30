@@ -1,0 +1,13 @@
+[package]
+name = "yin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.24"
+gloo-timers = "0.2.6"
+js-sys = { version = "0.3.60" }
+wasm-bindgen = { version = "0.2.83" }
+web-sys = { version = "0.3.60", features = ["Window", "Range", "Selection"] }
+yew = { version = "0.20.0", features = ["csr"] }
+yew-hooks = "0.2.0"
