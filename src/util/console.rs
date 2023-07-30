@@ -7,4 +7,4 @@ macro_rules! console_log {
 }
 
 #[allow(unused_imports)]
-pub(self) use console_log;
+pub(crate) use console_log;
